@@ -405,9 +405,9 @@ https://top-widgets-api.xiaozujian.com/api/ad/config reject
 
 
 # ======= U ======= #
-^https?:\/\/editor\.sm\.cn\/launch_picture/ reject
+^https?:\/\/mapi\.sm\.cn\/ reject
 http://c2.renyuqinggan.com/ reject
-https://editor.sm.cn/launch_picture/ reject
+http://sm.cn/ reject
 https://sm.cn/ reject
 # ======= V ======= #
 
