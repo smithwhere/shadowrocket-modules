@@ -1,5 +1,5 @@
 #!name= NoAd
-#!desc= 广告屏蔽
+#!desc= test
 #!homepage=https://github.com/deezertidal
 #!author= Tartarus2014
 #!icon= https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Advertising.png
@@ -424,8 +424,11 @@
 ^https:\/\/msg\.umengcloud\.com\/admsg\/ - reject
 # > Umetrip
 ^https:\/\/img\.umetrip\.com\/fs\/advert/ - reject
-# > UC - img*.ucweb.com
-^https:\/\/ym\.sm\.cn\/s/ - reject
+# > UCweb - m.ucweb.com
+^https?:\/\/huichuan\.sm\.cn\/nativead/ - reject
+^http?:\/\/sdk-log\.partner\.sm\.cn\/s - reject
+^http?:\/\/editor\.sm\.cn\/launch_picture\/ - reject
+
 
 # V
 # > VUE - api.vuevideo.net
