@@ -405,10 +405,10 @@ https://top-widgets-api.xiaozujian.com/api/ad/config reject
 
 
 # ======= U ======= #
-^https?:\/\/mapi\.sm\.cn\/ reject
-http://c2.renyuqinggan.com/ reject
-http://sm.cn/ reject
-https://sm.cn/ reject
+# > UCweb - m.ucweb.com
+^https?:\/\/huichuan\.sm\.cn\/nativead/ reject
+^http?:\/\/sdk-log\.partner\.sm\.cn\/s reject
+^http?:\/\/editor\.sm\.cn\/launch_picture\/ reject
 # ======= V ======= #
 
 
